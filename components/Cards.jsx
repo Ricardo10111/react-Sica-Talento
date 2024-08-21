@@ -1,0 +1,18 @@
+export default function Cards({ cards }) {
+  return (
+    <div className='flex flex-wrap justify-center gap-6 mt-12 '>
+      {cards.map((card, index) => (
+        <div
+          key={index}
+          className='flex flex-col gap-3 w-[20rem] shadow-custom-light rounded-lg p-6 cursor-pointer bg-white hover:shadow-custom-dark hover:bg-white transition-shadow duration-1000'
+        >
+          <div className='flex justify-start '>
+            <img className='w-[3rem]' src={card.img} alt={card.title} />
+          </div>
+          <h1 className='text-2xl font-bold '>{card.title}</h1>
+          <p className='text-lg  mt-4'>{card.description}</p>
+        </div>
+      ))}
+    </div>
+  )
+}
