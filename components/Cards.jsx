@@ -4,7 +4,7 @@ export default function Cards({ cards }) {
       {cards.map((card, index) => (
         <div
           key={index}
-          className='flex flex-col gap-3 w-[20rem] shadow-custom-light rounded-lg p-6 cursor-pointer bg-white hover:shadow-custom-dark hover:bg-white transition-shadow duration-1000'
+          className='flex flex-col gap-3 w-[20rem] bottom-2 shadow-custom-light rounded-lg p-6 cursor-pointer bg-transparent backdrop:blur-sm hover:shadow-custom-dark transition-shadow duration-1000'
         >
           <div className='flex justify-start '>
             <img className='w-[3rem]' src={card.img} alt={card.title} />
