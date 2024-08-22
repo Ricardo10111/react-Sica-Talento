@@ -16,7 +16,7 @@ export default function Nav() {
       ]
     },
     { name: 'Acerca de', path: '/about' },
-    
+
     { name: 'Próximos Cursos', path: '/courses' },
     { name: 'Blog', path: '/blog' },
     { name: 'Contacto', path: '/contact' }

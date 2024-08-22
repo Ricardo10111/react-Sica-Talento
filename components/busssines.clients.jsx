@@ -66,15 +66,19 @@ export default function BussinesClients() {
       </button>
 
       <div className='flex'>
-        <img className='w-[26rem] absolute mt-[10rem] ml-[-54.5rem] z-[-1]'
+        <img
+          className='w-[26rem] absolute mt-[10rem] ml-[-54.5rem] z-[-1]'
           src='https://icones.pro/wp-content/uploads/2022/02/services-parametres-et-icone-d-engrenage-jaune.png'
           alt=''
         />
       </div>
 
       <div className='flex'>
-        <img className='w-[26rem] absolute mt-[-7rem] ml-[28rem] z-[-1]' 
-        src="https://icones.pro/wp-content/uploads/2022/02/services-parametres-et-icone-d-engrenage-bleue.png" alt="" />
+        <img
+          className='w-[26rem] absolute mt-[-7rem] ml-[28rem] z-[-1]'
+          src='https://icones.pro/wp-content/uploads/2022/02/services-parametres-et-icone-d-engrenage-bleue.png'
+          alt=''
+        />
       </div>
 
       <div>

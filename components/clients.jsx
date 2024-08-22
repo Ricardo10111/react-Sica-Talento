@@ -57,7 +57,6 @@ export default function Clients() {
       }
     ]
   }
- 
 
   return (
     <>
@@ -68,7 +67,7 @@ export default function Clients() {
         }`}
       >
         <h1 className='text-4xl font-bold text-center'>Nuestros Clientes</h1>
-        
+
         <p className='text-lg text-center mt-4'>
           Conoce a los clientes que han confiado en nosotros
         </p>
@@ -112,12 +111,9 @@ export default function Clients() {
             </div>
           </Slider>
         </div>
-
-       
       </div>
 
-      <div className=''>
-      </div>
+      <div className=''></div>
     </>
   )
 }

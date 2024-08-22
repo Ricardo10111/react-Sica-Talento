@@ -8,7 +8,7 @@ import Blog from '@/components/Blog'
 import Footer from '@/components/Footer'
 export default function Home() {
   return (
-    <div className='font-Montserrat'>
+    <main className='font-Montserrat'>
       <Nav />
       <div className='h-dvh'>
         <Hero />
@@ -18,6 +18,6 @@ export default function Home() {
         <Reviews />
         <Footer />
       </div>
-    </div>
+    </main>
   )
 }
