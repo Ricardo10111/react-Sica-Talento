@@ -54,14 +54,14 @@ export default function Nav() {
       </div>
 
       {/* Botón de menú de hamburguesa para móviles */}
-      <div className='md:hidden flex items-center'>
+      <div className='lg:hidden flex items-center'>
         <button onClick={toggleMenu} className='focus:outline-none'>
           <img src='/hamburger_icon_143010.svg' alt='' />
         </button>
       </div>
 
       {/* Menú para desktop */}
-      <div className='hidden md:flex mr-20 flex-row gap-8 items-center  text-sm font-medium'>
+      <div className='hidden lg:flex mr-20  flex-row gap-8 items-center  text-sm font-medium'>
         {navItems.map((item, index) => (
           <div
             key={index}
@@ -93,8 +93,8 @@ export default function Nav() {
 
       {/* Menú desplegable móvil */}
       {isOpen && (
-        <div className='absolute top-[3.5rem] left-0 w-full bg-white shadow-lg md:hidden'>
-          <div className='flex flex-col items-center font-Montserrat text-sm font-medium'>
+        <div className='absolute top-[3.5rem] left-0 w-full bg-white shadow-lg lg:hidden'>
+          <div className='flex flex-col items-center  text-sm font-medium'>
             {navItems.map((item, index) => (
               <Link key={index} href={item.path}>
                 <div className='pr-2 pl-2 pb-1 pt-1 w-full text-center hover:text-[#fda10d] transition-all border-b'>
