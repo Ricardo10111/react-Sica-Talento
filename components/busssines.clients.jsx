@@ -65,7 +65,7 @@ export default function BussinesClients() {
         ¡Contáctanos!
       </button>
 
-      <div className='flex'>
+      <div className='hidden lg:flex'>
         <img
           className='w-[26rem] absolute mt-[10rem] ml-[-54.5rem] z-[-1]'
           src='https://icones.pro/wp-content/uploads/2022/02/services-parametres-et-icone-d-engrenage-jaune.png'
@@ -73,7 +73,7 @@ export default function BussinesClients() {
         />
       </div>
 
-      <div className='flex'>
+      <div className='hidden lg:flex'>
         <img
           className='w-[26rem] absolute mt-[-7rem] ml-[28rem] z-[-1]'
           src='https://icones.pro/wp-content/uploads/2022/02/services-parametres-et-icone-d-engrenage-bleue.png'
