@@ -61,7 +61,7 @@ export default function Nav() {
       </div>
 
       {/* Menú para desktop */}
-      <div className='hidden md:flex mr-20 flex-row gap-8 items-center font-Montserrat text-sm font-medium'>
+      <div className='hidden md:flex mr-20 flex-row gap-8 items-center  text-sm font-medium'>
         {navItems.map((item, index) => (
           <div
             key={index}
