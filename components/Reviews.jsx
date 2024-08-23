@@ -75,13 +75,14 @@ export default function Reviews() {
   }, [])
 
   const settingsSecond = {
-    dots: true,
+    dots: false,
     infinite: true,
-    speed: 1000,
     slidesToShow: 3,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 6000,
+    speed: 2000,
+    autoplaySpeed: 2000,
+    cssEase: "linear",
     responsive: [
       {
         breakpoint: 1024,
@@ -89,7 +90,7 @@ export default function Reviews() {
           slidesToShow: 2,
           slidesToScroll: 1,
           infinite: true,
-          dots: true
+          dots: false
         }
       },
       {

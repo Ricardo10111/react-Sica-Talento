@@ -75,13 +75,14 @@ export default function Blog() {
   }, [])
 
   const settingsSecond = {
-    dots: true,
+    dots: false,
     infinite: true,
-    speed: 1000,
     slidesToShow: 3,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 6000,
+    speed: 2000,
+    autoplaySpeed: 2000,
+    cssEase: "linear",
     responsive: [
       {
         breakpoint: 1024,
@@ -89,7 +90,7 @@ export default function Blog() {
           slidesToShow: 2,
           slidesToScroll: 1,
           infinite: true,
-          dots: true
+          dots: false
         }
       },
       {
@@ -121,7 +122,7 @@ export default function Blog() {
             {cardsReviews.map((card, index) => (
               <div
                 key={index}
-                className='flex flex-col md:max-w-[20rem]  gap-3 mr-4 shadow-custom-light rounded-lg p-6 cursor-pointer bg-gradient-to-r from-white to-[#fffbeb] hover:shadow-custom-dark hover:bg-gradient-to-bl hover:from-[#fcd34d] hover:to-white  transition-all duration-2000'
+                className='flex flex-col md:max-w-[20rem]  gap-3 mr-4 shadow-custom-light rounded-lg p-6 cursor-pointer bg-transparent  hover:shadow-custom-dark hover:bg-gradient-to-bl hover:from-[#fcd34d] hover:to-white  transition-all duration-2000'
               >
                 <p className='text-center text-xl font-bold'>{card.name}</p>
                 <div className='flex justify-center'>

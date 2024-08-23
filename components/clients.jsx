@@ -31,13 +31,14 @@ export default function Clients() {
   }, [])
 
   const settings = {
-    dots: true,
+    dots: false,
     infinite: true,
-    speed: 2000,
     slidesToShow: 3,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 3000,
+    speed: 4000,
+    autoplaySpeed: 2000,
+    cssEase: "linear",
     responsive: [
       {
         breakpoint: 1024,
@@ -51,6 +52,7 @@ export default function Clients() {
       {
         breakpoint: 600,
         settings: {
+          fade: true,
           slidesToShow: 1,
           slidesToScroll: 1
         }

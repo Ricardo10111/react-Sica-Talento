@@ -11,7 +11,7 @@ export default function Hero() {
 
   return (
     <div
-      className={`flex flex-row flex-nowrap items-center gap-24 bg-[#f3f3f1] justify-center mt-[8rem] transition-opacity duration-1000 ${
+      className={`flex flex-row flex-nowrap items-center gap-24 bg-[#fff7ed] justify-center mt-[8rem] transition-opacity duration-1000 ${
         isVisible ? 'opacity-100' : 'opacity-0'
       }`}
     >
