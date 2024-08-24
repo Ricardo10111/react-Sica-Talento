@@ -68,7 +68,7 @@ export default function Clients() {
           isVisible ? 'opacity-100' : 'opacity-0'
         }`}
       >
-        <h1 className='text-4xl font-bold text-center'>Nuestros Clientes</h1>
+        <h1 className='text-4xl font-bold text-center text-[#1e293b]'>Nuestros Clientes</h1>
 
         <p className='text-lg text-center mt-4'>
           Conoce a los clientes que han confiado en nosotros

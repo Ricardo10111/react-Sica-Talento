@@ -39,7 +39,7 @@ export default function CardsAbout() {
     >
       <div className='grid grid-cols-1 md:grid-cols-3 gap-4 mt-10'>
         <div className='bg-transparent cursor-pointer p-4 rounded-lg shadow-lg hover:shadow-custom-dark transition-shadow duration-1000'>
-          <h2 className='text-2xl font-bold text-center'>¿Quiénes somos?</h2>
+          <h2 className='text-2xl font-bold text-center text-[#1e293b]'>¿Quiénes somos?</h2>
           <p className='text-lg mt-4 transition-opacity duration-500'>
             Somos una empresa 100% mexicana, con más de 10 años de experiencia
             en el mercado, especializada en la gestión de talento, asesoría
@@ -48,7 +48,7 @@ export default function CardsAbout() {
         </div>
 
         <div className='bg-transparent cursor-pointer p-4 rounded-lg shadow-lg hover:shadow-custom-dark transition-shadow duration-1000'>
-          <h2 className='text-2xl font-bold text-center'>¿Qué hacemos?</h2>
+          <h2 className='text-2xl font-bold text-center text-[#1e293b]'>¿Qué hacemos?</h2>
           <p className='text-lg mt-4 transition-opacity duration-500'>
             Buscamos ser tus aliados estratégicos, contribuyendo con compromiso,
             lealtad y responsabilidad para llevarte al éxito, logrando elevar la
@@ -59,7 +59,7 @@ export default function CardsAbout() {
         </div>
 
         <div className='bg-transparent cursor-pointer p-4 rounded-lg shadow-lg hover:shadow-custom-dark transition-all duration-1000'>
-          <h2 className='text-2xl font-bold text-center'>
+          <h2 className='text-2xl font-bold text-center text-[#1e293b]'>
             ¿Por qué elegirnos?
           </h2>
           <p className='text-lg mt-4'>
@@ -70,7 +70,7 @@ export default function CardsAbout() {
         </div>
       </div>
       <div className='bg-[#fff7ed] mt-[3rem] w-full min-h-[8rem] cursor-pointer p-4 rounded-lg shadow-lg hover:shadow-custom-dark transition-shadow duration-1000 hover:bg-gradient-to-bl hover:from-[#fffbeb] hover:to-[#fde68a]'>
-        <h2 className='text-2xl font-bold text-center'>Nuestra Visión</h2>
+        <h2 className='text-2xl font-bold text-center  text-[#1e293b]'>Nuestra Visión</h2>
         <p className='text-lg text-center mt-4'>
         Ser la empresa reconocida como líder estratégico que lleve al éxito a las empresas mexicanas. 
         </p>

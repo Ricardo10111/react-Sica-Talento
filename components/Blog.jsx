@@ -111,7 +111,7 @@ export default function Blog() {
           isVisible ? 'opacity-100' : 'opacity-0'
         }`}
       >
-        <h3 className='text-2xl font-bold text-center'>Conoce nuestro Blog</h3>
+        <h3 className='text-2xl font-bold text-center text-[#1e293b]'>Conoce nuestro Blog</h3>
         <p className='text-lg text-center mt-4'>
           Temas interesantes que debes aprender...
         </p>

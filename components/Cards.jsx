@@ -9,7 +9,7 @@ export default function Cards({ cards }) {
           <div className='flex justify-start '>
             <img className='w-[3rem]' src={card.img} alt={card.title} />
           </div>
-          <h1 className='text-2xl font-bold '>{card.title}</h1>
+          <h1 className='text-2xl font-bold text-[#1e293b]'>{card.title}</h1>
           <p className='text-lg  mt-4'>{card.description}</p>
         </div>
       ))}

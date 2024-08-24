@@ -42,7 +42,7 @@ export default function AdvantageAbout() {
   return (
     <div className="mt-[6rem]" onScroll={handleScroll}>
       <div className="flex justify-center items-center">
-        <h2 className="text-3xl text-[#121212] font-semibold">
+        <h2 className="text-2xl font-bold text-center text-[#1e293b]">
           La ventaja SICA TALENTO
         </h2>
       </div>
@@ -52,11 +52,11 @@ export default function AdvantageAbout() {
       >
         <div className="flex justify-between gap-1 mt-[0rem]">
           <div
-            className="flex justify-center w-[30%]"
+            className=" justify-end w-[30%] hidden md:block"
             style={{ transform: `translateX(${scrollY * 0.08}px)` }}
           >
             <img
-              className="w-[2rem] h-[2rem]  md:w-[9rem] md:h-[9rem]"
+              className="w-[2rem] h-[2rem]  md:w-[9rem] md:h-[9rem] hidden md:block"
               src="https://www.sica-talento.com/wp-content/uploads/2022/04/aseroria-personalizada-acerca-de-sica.png"
               alt=""
             />
@@ -93,11 +93,11 @@ export default function AdvantageAbout() {
             </p>
           </div>
           <div
-            className="flex justify-end w-[30%]"
+            className=" justify-end w-[30%] hidden md:block"
             style={{ transform: `translateX(${scrollY * -0.2}px)` }}
           >
             <img
-              className="w-[9rem]"
+              className="w-[9rem] "
               src="https://www.sica-talento.com/wp-content/uploads/2022/04/certificados-antes-stps-acerca-de-sica-talento.png"
               alt=""
             />
@@ -106,11 +106,11 @@ export default function AdvantageAbout() {
 
         <div className="flex justify-between gap-7 mt-[2rem]">
           <div
-            className="flex justify-start w-[30%]"
+            className="f justify-end w-[30%] hidden md:block"
             style={{ transform: `translateX(${scrollY * 0.2}px)` }}
           >
             <img
-              className="w-[9rem]"
+              className="w-[9rem] hidden md:block"
               src="https://www.sica-talento.com/wp-content/uploads/2022/04/creacion-de-valor-compartido-acerca-de-sica-talento.png"
               alt=""
             />

@@ -18,7 +18,7 @@ export default function Hero() {
       <div className='flex flex-col p-8  lg:ml-8 lg:p-0 max-w-[25rem] lg:max-w-[45rem]'>
         <div>
         </div>
-        <h1 className='text-3xl lg:text-5xl font-bold text-center font-[Poppins]'>
+        <h1 className='text-3xl text- lg:text-5xl font-bold text-center font-[Poppins] text-[#1e293b]'>
           Impulsa tu empresa con el talento que realmente encaja
         </h1>
         <p className='text-lg text-center mt-4'>

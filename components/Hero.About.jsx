@@ -15,10 +15,10 @@ export default function HeroAbout() {
         isVisible ? 'opacity-100' : 'opacity-0'
       }`}
     >
-      <div className='flex flex-col p-8  lg:ml-8 lg:p-0 max-w-[25rem] lg:max-w-[45rem]'>
+      <div className='flex flex-col p-8  lg:ml-8 lg:p-0 max-w-[25rem] lg:max-w-[65rem]'>
         <div>
         </div>
-        <h1 className='text-3xl lg:text-5xl font-bold text-center font-[Poppins] text-[#121212]'>
+        <h1 className='text-3xl lg:text-5xl font-bold text-center font-[Poppins] text-[#1e293b]'>
         Servicios Integrales en Capacitación, Asesoría y Talento Humano
         </h1>
         <p className='text-lg text-center mt-4'>

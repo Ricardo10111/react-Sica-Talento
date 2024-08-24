@@ -53,7 +53,7 @@ export default function BussinesClients() {
         isVisible ? 'opacity-100' : 'opacity-0'
       }`}
     >
-      <h1 className='text-4xl font-bold text-center'>
+      <h1 className='text-4xl font-bold text-center text-[#1e293b]'>
         ¿Cómo apoyaremos en el crecimiento de tu negocio?
       </h1>
       <p className='text-lg text-center mt-4'>
