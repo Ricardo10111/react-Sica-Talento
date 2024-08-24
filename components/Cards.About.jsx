@@ -33,7 +33,7 @@ export default function CardsAbout() {
   return (
     <div
       ref={componentRef}
-      className={`flex flex-col items-center p-20 justify-center mt-[2rem] transition-opacity duration-1000 ${
+      className={`flex flex-col items-center p-4 md:p-20 justify-center mt-[2rem] transition-opacity duration-1000 ${
         isVisible ? 'opacity-100' : 'opacity-0'
       }`}
     >
@@ -69,7 +69,7 @@ export default function CardsAbout() {
           </p>
         </div>
       </div>
-      <div className='bg-[#fff7ed] mt-[3rem] w-full h-[8rem] cursor-pointer p-4 rounded-lg shadow-lg hover:shadow-custom-dark transition-shadow duration-1000 hover:bg-gradient-to-bl hover:from-[#fffbeb] hover:to-[#fde68a]'>
+      <div className='bg-[#fff7ed] mt-[3rem] w-full min-h-[8rem] cursor-pointer p-4 rounded-lg shadow-lg hover:shadow-custom-dark transition-shadow duration-1000 hover:bg-gradient-to-bl hover:from-[#fffbeb] hover:to-[#fde68a]'>
         <h2 className='text-2xl font-bold text-center'>Nuestra Visión</h2>
         <p className='text-lg text-center mt-4'>
         Ser la empresa reconocida como líder estratégico que lleve al éxito a las empresas mexicanas. 

@@ -56,7 +56,7 @@ export default function AdvantageAbout() {
             style={{ transform: `translateX(${scrollY * 0.08}px)` }}
           >
             <img
-              className="w-9 lg:w-[9rem]"
+              className="w-[2rem] h-[2rem]  md:w-[9rem] md:h-[9rem]"
               src="https://www.sica-talento.com/wp-content/uploads/2022/04/aseroria-personalizada-acerca-de-sica.png"
               alt=""
             />

@@ -11,7 +11,7 @@ export default function Hero() {
 
   return (
     <div
-      className={`flex flex-row flex-nowrap items-center gap-24 bg-[#fff7ed] justify-center mt-[8rem] transition-opacity duration-1000 ${
+      className={`flex md:flex-row flex-col-reverse flex-wrap items-center gap-24 bg-[#fff7ed] justify-center mt-[8rem] transition-opacity duration-1000 ${
         isVisible ? 'opacity-100' : 'opacity-0'
       }`}
     >
@@ -33,7 +33,7 @@ export default function Hero() {
         </div>
       </div>
 
-      <div className='hidden md:flex lg:mb-[-80px]'>
+      <div className=' md:flex lg:mb-[-80px]'>
         <img
           className='w-[20rem] lg:w-[25rem]  lg:relative top-[-5rem]'
           src='https://eduport.webestica.com/assets/images/element/07.png'

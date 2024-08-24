@@ -11,7 +11,7 @@ export default function HeroAbout() {
 
   return (
     <div
-      className={`flex flex-row flex-nowrap h-[40rem] items-center gap-24 bg-[#fff7ed] justify-center mt-[6rem] transition-opacity duration-1000 ${
+      className={`flex md:flex-row flex-col-reverse flex-wrap lg:pt-5 h-[40rem] items-center gap-24 bg-[#fff7ed] justify-center mt-[6rem] transition-opacity duration-1000 ${
         isVisible ? 'opacity-100' : 'opacity-0'
       }`}
     >
@@ -28,9 +28,9 @@ export default function HeroAbout() {
        
       </div>
 
-      <div className='hidden md:flex lg:mb-[-80px]'>
+      <div className=' lg:flex lg:mb-[-80px]'>
         <img
-          className='w-[70rem]   lg:relative top-[-5rem]'
+          className='w-[16rem] md:w-[25rem] lg:w-[45rem] lg:relative top-[-5rem]'
           src='https://landkit.goodthemes.co/assets/img/illustrations/illustration-2.png'
           alt=''
         />

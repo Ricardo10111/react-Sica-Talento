@@ -9,7 +9,7 @@ import Footer from '@/components/Footer'
 
 export default function Home() {
   return (
-    <main className='font-Poppins w-full'>
+    <main className='font-Poppins'>
       <Nav />
       <div className='h-dvh'>
         <Hero />
